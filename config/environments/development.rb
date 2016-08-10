@@ -28,7 +28,7 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.delivery_method = :test
+  config.action_mailer.delivery_method = :ses
   host = 'http://ec2-52-36-56-30.us-west-2.compute.amazonaws.com'
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 

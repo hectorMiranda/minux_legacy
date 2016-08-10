@@ -41,6 +41,11 @@ GEM
     arel (7.0.0)
     autoprefixer-rails (6.3.7)
       execjs
+    aws-ses (0.4.4)
+      builder
+      mail (> 2.2.5)
+      mime-types
+      xml-simple
     bcrypt (3.1.11)
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
@@ -161,11 +166,13 @@ GEM
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
     will_paginate (3.1.0)
+    xml-simple (1.1.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-ses (~> 0.4.4)
   bcrypt (= 3.1.11)
   bootstrap-sass (= 3.3.6)
   bootstrap-will_paginate (= 0.0.10)

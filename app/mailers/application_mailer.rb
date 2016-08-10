@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'noreply@minux.io'
+  default from: 'no-reply@minux.io'
   layout 'mailer'
 end

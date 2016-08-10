@@ -1,5 +1,5 @@
 User.create!(name:  "el super user",
-             email: "marcetux@gmail.com",
+             email: "marcetux@hotmail.com",
              password:              "Password1!",
              password_confirmation: "Password1!",
              admin: true,

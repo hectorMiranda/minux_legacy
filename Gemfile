@@ -9,6 +9,8 @@ gem 'faker',          '1.6.3'
 gem 'will_paginate',           '3.1.0'
 gem 'bootstrap-will_paginate', '0.0.10'
 
+gem 'aws-ses', '~> 0.4.4', require: 'aws/ses'
+
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
