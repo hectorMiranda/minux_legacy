@@ -19,9 +19,12 @@ rvm install 2.3.1
 
 rvm gemset create minux
 
-rmv use 2.3.1@minux
+rvm use 2.3.1@minux
 
 gem install rails -v 5.0.0
+
+sudo apt-get install nodejs
+
 ```
 
 
@@ -30,7 +33,28 @@ gem install rails -v 5.0.0
 
 
 * Database creation
-NA
+
+```
+#!bash
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib
+
+
+sudo -i -u postgres
+
+createuser -s -r marcetux
+logout
+psql
+
+
+
+sudo apt-get install libpq-dev
+
+rvmsudo gem install pg -v '0.18.4'
+
+bundle install
+```
+
 * Database initialization
 NA
 * How to run the test suite
