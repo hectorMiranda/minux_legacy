@@ -43,6 +43,13 @@ createuser -s -r marcetux
 logout
 psql
 
+
+
+sudo apt-get install libpq-dev
+
+rvmsudo gem install pg -v '0.18.4'
+
+bundle install
 ```
 
 * Database initialization
