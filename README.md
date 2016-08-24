@@ -22,6 +22,9 @@ rvm gemset create minux
 rvm use 2.3.1@minux
 
 gem install rails -v 5.0.0
+
+sudo apt-get install nodejs
+
 ```
 
 
