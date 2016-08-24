@@ -5,7 +5,7 @@ User.create!(name:  "el super user",
              admin: true,
              activated: true,
              activated_at: Time.zone.now)
-
+=begin
 99.times do |n|
   name  = Faker::Name.name
   email = "bot_#{n+1}@gmail.com"
@@ -31,3 +31,5 @@ following = users[2..50]
 followers = users[3..40]
 following.each { |followed| user.follow(followed) }
 followers.each { |follower| follower.follow(user) }
+
+=end
