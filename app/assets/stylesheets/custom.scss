@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Rubik);
 
 /* mixins, variables, etc. */
 
@@ -44,6 +45,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 h2 {
