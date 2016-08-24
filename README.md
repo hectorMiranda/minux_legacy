@@ -19,7 +19,7 @@ rvm install 2.3.1
 
 rvm gemset create minux
 
-rmv use 2.3.1@minux
+rvm use 2.3.1@minux
 
 gem install rails -v 5.0.0
 ```
