@@ -30,7 +30,21 @@ gem install rails -v 5.0.0
 
 
 * Database creation
-NA
+
+```
+#!bash
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib
+
+
+sudo -i -u postgres
+
+createuser -s -r marcetux
+logout
+psql
+
+```
+
 * Database initialization
 NA
 * How to run the test suite
