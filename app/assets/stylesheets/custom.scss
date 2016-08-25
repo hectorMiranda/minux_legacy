@@ -28,8 +28,15 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
-  padding-top: 60px;
+  padding-top: 45px;
   font-family: 'Rubik', sans-serif;
+}
+
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 200px;
+  }
 }
 
 section {
