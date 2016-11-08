@@ -1,6 +1,5 @@
 # README
-
-Getting started:
+Getting started
 
 * Ruby version
 2.3.1
@@ -53,14 +52,3 @@ sudo apt-get install libpq-dev
 rvmsudo gem install pg -v '0.18.4'
 
 bundle install
-```
-
-* Database initialization
-NA
-* How to run the test suite
-NA
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-NA
-* ...
